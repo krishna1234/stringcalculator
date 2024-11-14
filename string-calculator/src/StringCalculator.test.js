@@ -2,7 +2,7 @@ import { add } from "./StringCalculator";
 
 describe("String Calculator", () => {
     it("returns an empty string", () => {
-        expect(addO("")).toBe(0);
+        expect(add("")).toBe(0);
     });
 
     it("returns the number for a single number string", () => {
@@ -14,7 +14,7 @@ describe("String Calculator", () => {
     });
 
     it("returns the sum for two numbers seperated by newline charcter", () => {
-        expect(add("2\n5")).toBe(5);
+        expect(add("2\n5")).toBe(7);
     });
 
     it("throws error for a negative number", () => {

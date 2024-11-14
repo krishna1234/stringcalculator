@@ -18,7 +18,7 @@ export function add(numbers) {
     console.log(negativeNumber);
 
     if (negativeNumber.length > 0) {
-        console.log("Error as negative numbers");
+        console.log("Error as negative numbers", negativeNumber);
         throw new Error(
             `negative numbers not allowed: ${negativeNumber.join(", ")}`
         );
