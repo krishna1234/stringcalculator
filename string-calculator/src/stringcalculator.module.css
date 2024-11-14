@@ -1,0 +1,22 @@
+.input {
+    border: none;
+    height: 50px;
+    background: white;
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background: white;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.result {
+    text-align: center;
+    color: white;
+}

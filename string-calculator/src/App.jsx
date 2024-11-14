@@ -1,6 +1,5 @@
-import { useState } from "react";
-import "./App.css";
 import StringCalculatorUI from "./StringCalculatorUI";
+import "./App.css";
 
 function App() {
     return (
